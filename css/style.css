@@ -128,7 +128,7 @@ body {
    background: #F47322;
    color: #fff;
   }
-  .button {
+.button {
     border-radius: 25px;
     padding: 12px 50px;
     display: inline-block;
@@ -143,18 +143,22 @@ body {
   padding-bottom: 50px;
   display: flex;
   justify-content: space-between;
+  margin: -20px;
   
 }
 .card {
+  flex: 50%;
+  margin: 20px;
   position: relative;
   border-radius: 20px;
   overflow: hidden;
+  padding: 32px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 32px;
   min-width: 570px;
   min-height: 380px;
+   
  
 }
 
@@ -214,4 +218,235 @@ body {
 .card__header,
 .card__footer {
   z-index: 2;
+}
+.section__title {
+  font-size: 32px;
+  line-height: 23px;
+  font-style: 500;
+  margin-top: 0;
+  margin-bottom: 47px;
+}
+.dilivery__week {
+  padding: 100px 0;
+}
+.delivery__cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+.delivery__card {
+  width: 275px;
+  height: 182px;
+  overflow: hidden;
+  border-radius: 18px;
+  position: relative;
+  margin: 15px;
+}
+.img__cards {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.delivery__tag {
+  position: absolute;
+  left: 10px;
+  top: 16px;
+  border-radius: 30px;
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 500;
+  color: #49494F;
+  padding: 5px 10px;
+
+}
+.tag__health {
+  background: #d0fd89;
+}
+.tag__veg {
+  background: #AEBC41;
+}
+.tag__meat {
+  background: #B86B78;
+}
+.tag__bird {
+background: #D68334;
+}
+.tag__fish {
+  background: #CD6255;
+
+}
+.tag__child {
+  background: #FFFDBF;
+}
+.tag__parents {
+  background: #F6FDC8;
+}
+
+.tag__holiday {
+background: #FEF7FE;
+}
+.section-grey {
+  background: #F6F6F6;
+
+  
+}
+.category {
+ padding-top: 40px;
+ padding-bottom: 100px; 
+}
+.tabs {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 62px;
+}
+.tabs__link {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 23px;
+  color: #49494F;
+  margin-right: 58px;
+}
+.tabs__link.activ {
+  color: #F37321;
+
+}
+.tabs__content {
+  display: flex;
+  justify-content: space-around;
+  margin: -37px;
+}
+
+.tabs__card {
+  max-width: 270px;
+  border-radius: 20px;
+  overflow: hidden;
+  background-color: #fff;
+  margin: 37px;
+}
+.tabs__img {
+  width: 100%;
+}
+.tabs__card_content {
+  padding: 23px;
+}
+.tabs__title {
+  margin-bottom: 13px;
+  margin-top: 0;
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 500;
+}
+.tabs__description {
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 500;
+  color: #B9B9BE; 
+}
+.tabs__prise {
+  font-size: 23px;
+  line-height: 23px;
+  font-weight: 500;
+  color: #4B4B51;
+  display: block;
+  margin-bottom: 5px;
+}
+.tabs__weight {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #AAAAB1
+}
+.tabs___info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.button__outline {
+  background-color: transparent;
+  padding: 15px 25px;
+  border: 1px solid #F37321;
+  border-radius: 33px;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+
+}
+.button__center {
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  width: 315px;
+}
+.section__benefits {
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+.benefits__cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  margin: -18px;
+  
+}
+.card__wrapper {
+  padding-top: 30px;
+  padding-bottom: 25px;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 280px;
+  margin: 18px;
+  border: 1px solid #f9f9f9;
+  border-radius: 18px;
+  overflow: hidden;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.1);
+}
+.benefits_img {
+  width: 60px;
+  height: 60px;
+}
+.benefits__title {
+  font-size: 16px;
+  line-height: 23px;
+  font-weight: 500;
+
+}
+.benefits__deckription {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+}
+.footer {
+  background: #F6F6F6;
+  padding: 40px 0;
+}
+.footer__logo {
+  margin-right: 50px;
+   width: 205px;
+}
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+}
+.footer__link {
+  margin-right: 50px;
+  font-size: 16px;
+  line-height: 23px;
+  color: #000;
+
+}
+.social__links {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.social__link {
+  margin-left: 20px;
+  text-decoration: none;
 }
